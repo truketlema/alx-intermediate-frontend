@@ -63,7 +63,34 @@
           </p>
         </section>
       </article>
+      <!-- Accessible Form Section -->
+      <section>
+        <form action="#" method="POST" aria-labelledby="form-title" role="form">
+          <h2 id="form-title">Contact Form</h2>
+
+          <!-- Name Field -->
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" aria-required="true" />
+          </div>
+
+          <!-- Email Field -->
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" aria-required="true" />
+          </div>
+
+          <!-- Submit Button -->
+          <div>
+            <button type="submit" aria-label="Submit the form">Submit</button>
+          </div>
+
+          <!-- Alert / Live Region -->
+          <div aria-live="polite" role="alert"></div>
+        </form>
+      </section>
     </main>
+
     <footer>
       <p>Written by Truket Lema</p>
       <p>Published on 2024-09-11</p>
