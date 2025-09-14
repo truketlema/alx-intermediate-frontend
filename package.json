@@ -19,5 +19,8 @@
   "homepage": "https://github.com/truketlema/alx-intermediate-frontend#readme",
   "devDependencies": {
     "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "sass": "^1.92.1"
   }
 }

@@ -1,0 +1,8 @@
+1. Verified Node.js installation:
+   node -v
+
+2. Installed Sass (latest version) using:
+   npm install sass
+
+3. Verified Sass installation:
+   npx sass --version
